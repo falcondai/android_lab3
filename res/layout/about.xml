@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="5dp"
+        android:text="This app fetches weather forecast information for today and tomorrow (the two can be seen simultaneously) from api.wunderground.com and displays the weather icons (with transparency) as floating planes above their corresponding customized trackables."
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/done_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Done" />
+
+</LinearLayout>
